@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec0f66dc88d4c749f7413ebac231b84, type: 3}
+  m_Name: BlockData
+  m_EditorClassIdentifier: 
+  FirstBlockScaleDuration: 1.4
+  BaseSpawnOffset: 1.05
+  OffsetSpeedModifier: 0.6
+  FirstSpawnAtFront: 1
+  StarterBlockScale: {x: 3, y: 0.5, z: 3}
+  StarterBlockRot: {x: 0, y: -180, z: 0}
+  Speed: 4
+  MaxSpeed: 6.8
+  SpeedDelta: 0.025
+  TimesSnappingBeforeScalingUp: 5
+  AcceptableAccuracyError: 0.09
+  MinStackScale: 0.095
+  ScaleDuration: 0.45
+  AddScale: 0.4
+  ParticleRadius: 0.2
+  OffsetFromBlock: 0.55
+  MaxTimesParticlesChange: 4
+  RotationsFromFront:
+  - {x: 0, y: -90, z: 0}
+  - {x: 0, y: 90, z: 0}
+  - {x: 90, y: 0, z: 0}
+  - {x: -90, y: 0, z: 0}
+  RotationsFromSide:
+  - {x: -90, y: 180, z: -90}
+  - {x: -270, y: 180, z: 270}
+  - {x: -180, y: 90, z: 90}
+  - {x: -180, y: -90, z: -90}
